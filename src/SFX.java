@@ -1,4 +1,7 @@
-
+/**
+ *
+ * @author Johnnylee Bryan Marques da Rocha
+ */
 import javax.swing.JOptionPane;
 import javazoom.jl.player.*;
 import java.io.*;

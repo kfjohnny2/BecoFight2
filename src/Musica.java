@@ -1,11 +1,6 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
- * @author t0510
+ * @author Johnnylee Bryan Marques da Rocha
  */
     import javazoom.jl.player.Player;
     import java.io.FileInputStream;
@@ -34,7 +29,7 @@ public class Musica implements Runnable{
                else{
                    JOptionPane.showMessageDialog(null, "Você não escolheu música alguma.");
                }
-                
+
 
          }
         catch(Exception erro){

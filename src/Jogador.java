@@ -1,16 +1,8 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
-
 import javax.swing.JOptionPane;
-
 
 /**
  *
- * @author i2572
+ * @author Johnnylee Bryan Marques da Rocha
  */
 public class Jogador {
     private String nome;
@@ -63,7 +55,7 @@ public class Jogador {
                     "Escolha outro golpe");
             return false;
         }
-        
+
     }
     public boolean darmaozada(Jogador j){
        if(this.forca >= maozada){
@@ -76,7 +68,7 @@ public class Jogador {
                     "Escolha outro golpe");
            return false;
        }
-        
+
     }
     public boolean darbicuda(Jogador j){
        if(this.forca >= bicuda){
@@ -134,7 +126,7 @@ public class Jogador {
     public void novoJogo(){
         this.hp = 100;
         this.forca = 30;
-       
+
     }
     public String escolherNome(){
         String sNome = "";

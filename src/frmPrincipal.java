@@ -20,11 +20,6 @@ import javax.swing.JPanel;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
  * frmPrincipal.java
  *
  * Created on 07/03/2012, 21:56:42
@@ -32,7 +27,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  *
- * @author i2572
+ * @author Johnnylee Bryan Marques da Rocha
  */
 public class frmPrincipal extends javax.swing.JFrame {
     ExecutorService executor = Executors.newFixedThreadPool(1);
